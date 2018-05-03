@@ -1,0 +1,60 @@
+#footer {
+    width: 100%;
+    color: #3F3F3F;
+    background: #FFF;
+    @include border("top", 1px, "solid", #CCC);
+    @include border("bottom", 1px, "solid", #CCC);
+}
+
+.footer {
+    width: 25%;
+    h2 {
+        color: #333333;
+        @include fontface("Roboto Slab", 20px, 300);
+        margin-bottom: 12px;
+        text-transform: uppercase;
+    }
+    .widget {
+        clear: both;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 15px 25px 25px 0;
+    }
+    li {
+        text-transform: capitalize;
+        margin: 0 0 0 15px;
+        padding: 0 0 5px 0;
+        @include fontface("Roboto Slab", 14px);
+    }
+}
+
+.footer-credits {
+    @include fontface("Roboto Slab", 14px, 100);
+    line-height: 21px;
+    background: #FFFFFF;
+    padding: 0 0 20px 0;
+}
+
+.footer-menu {
+    width: auto;
+    float: left;
+    height: auto;
+    /* border-top:1px solid #E5E5E5; */
+    @include fontface("Roboto Slab", 14px, 300);
+    margin: 10px 0 0 0;
+    padding: 0;
+    ul {
+        list-style: none;
+        display: inline-block;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        li {
+            list-style: none;
+            display: inline-block;
+            text-align: left;
+            margin: 0 10px 0 0;
+            padding: 0;
+        }
+    }
+}

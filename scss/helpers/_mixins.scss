@@ -1,0 +1,48 @@
+@mixin cfix($clear) {
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    clear: $clear;
+}
+
+@mixin border($side: "all", $size: "1px", $type: "solid", $color: "#000000") {
+    @if $side=='all' {
+        border: $size $type $color;
+    }
+    @else {
+        @if $side==top {
+            border-top: $size $type $color;
+        }
+        @else if $side==right {
+            border-right: $size $type $color;
+        }
+        @else if $side==bottom {
+            border-bottom: $size $type $color;
+        }
+        @else {
+            border-left: $size $type $color;
+        }
+    }
+}
+
+@mixin fontface($name: 'Roboto Slab', $size: 14px, $weight: 300, $style: normal) {
+    font-family: $name;
+    font-size: $size;
+    font-weight: $weight;
+    font-style: $style;
+}
+
+@mixin heading($fontsize, $lineheight) {
+    font-size: $fontsize;
+    line-height: $lineheight;
+}
+
+@mixin autolay {
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+}

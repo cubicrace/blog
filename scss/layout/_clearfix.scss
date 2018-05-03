@@ -1,0 +1,14 @@
+.clear {
+    @include cfix("both");
+    content: ' ';
+}
+
+.clearfix {
+    zoom: 1;
+    &:before {
+        @include cfix("none")
+    }
+    &:after {
+        @include cfix("both")
+    }
+}

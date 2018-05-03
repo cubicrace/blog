@@ -1,0 +1,47 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000000;
+    font-weight: normal;
+}
+
+h1 {
+    @include heading(32px, 42px);
+    &.post-title {
+        line-height: 48px;
+        text-decoration: none;
+        text-align: left;
+        position: relative;
+        @include fontface('Roboto Slab', 38px, 300);
+        margin: 0 0 20px;
+        padding: 0 0 5px;
+        letter-spacing: -1px;
+        word-spacing: 4px;
+    }
+}
+
+h2 {
+    @include heading(22px, 32px);
+    a {
+        color: #000;
+    }
+}
+
+h3 {
+    @include heading(18px, 28px);
+}
+
+h4 {
+    @include heading(16px, 26px);
+}
+
+h5 {
+    @include heading(12px, 22px);
+}
+
+h6 {
+    @include heading(10px, 20px);
+}

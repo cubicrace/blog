@@ -1,0 +1,119 @@
+@import 'helpers/_mixins.scss';
+@import 'helpers/_variables.scss';
+@import 'layout/_reset.scss';
+@import 'layout/_init.scss';
+@import 'layout/_clearfix.scss';
+@import 'layout/_headings.scss';
+@import 'components/_body.scss';
+@import 'components/_sidebar.scss';
+@import 'components/_footer.scss';
+@import 'components/_post.scss';
+@import 'components/_comments.scss';
+@import 'components/_sharing.scss';
+@import 'components/_navigation.scss';
+@media screen and (max-width:1152px) {
+    .item-thumbnail {
+        display: none;
+    }
+    #content {
+        margin-right: 0em;
+    }
+    .sidebar-wrapper {
+        max-width: 100%;
+        width: auto;
+    }
+    h1.post-title {
+        font-size: 45px
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .post {
+        max-height: 460px
+    }
+    .portfolio {
+        width: 33.3333%;
+    }
+    .hentry .landscape {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .ad-banner,
+    .post-footer {
+        display: none!important
+    }
+    .header-inner-wrap {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    .ft-ftime {
+        font-size: 10px;
+    }
+    .portfolio,
+    .landscape {
+        width: 100%
+    }
+    .portfolio {
+        width: 50%
+    }
+    h1.post-title {
+        font-size: 40px
+    }
+    #main {
+        padding: 70px 0 20px
+    }
+    .footer-menu ul {
+        display: block;
+        text-align: center
+    }
+    .footer-credits .ct-wrapper {
+        padding: 0 10px
+    }
+    .sidebar-wrapper {
+        float: none;
+        width: auto;
+        max-width: 100%;
+        clear: both
+    }
+    .share-story-container ul li {
+        text-align: center;
+        display: inline-block;
+        margin: 20px 10px 0
+    }
+    .post-body.entry-content {
+        padding-bottom: 3%
+    }
+    .footer.section {
+        width: 33%
+    }
+    .toggle-button:hover {
+        color: #FFF
+    }
+    .toggle-button {
+        background: #101010;
+        color: #FFF;
+        font-size: 30px;
+        padding: 0 5px 5px
+    }
+    .toggle {
+        text-align: center;
+        display: block
+    }
+}
+
+@media screen and (max-width:620px) {
+    .portfolio,
+    .portfolio.landscape {
+        width: 100%
+    }
+    h1.post-title {
+        font-size: 28px
+    }
+    .post-body {
+        font-size: 14px;
+        font-family: trebuchet ms
+    }
+}

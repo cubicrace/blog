@@ -1,0 +1,66 @@
+body {
+    background: #fff;
+    color: #444;
+    height: 100%;
+    @include fontface('arial', 16px);
+    line-height: 24px;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    &#layout {
+        .header-wrapper {
+            margin-top: 60px;
+            position: relative;
+            height: auto\9;
+            width: auto\9
+        }
+        .header-inner-wrap {
+            width: 50%
+        }
+        #content {
+            width: 100%;
+            float: right
+        }
+        .sidebar-wrapper {
+            float: right;
+            width: 30%;
+        }
+        #header {
+            width: 100%;
+            margin: 0;
+            padding: 0
+        }
+        div.footer {
+            font-family: sans-serif;
+            display: inline-table;
+            position: relative;
+            float: left;
+            max-width: 25%;
+            margin: 0 auto 2px;
+            padding: 0 0 10px
+        }
+        #Blog1 {
+            float: none;
+        }
+        #main {
+            clear: both;
+            position: relative;
+            margin: 3em 0 0;
+            padding: 2em 0 0
+        }
+        .main-wrapper {
+            width: 60%;
+            float: left;
+            position: relative;
+            // display: inline-block
+        }
+        .outer-wrapper,
+        .sidebar-wrapper,
+        .ct-wrapper,
+        .container {
+            overflow: hidden;
+            margin: 0;
+            padding: 0
+        }
+    }
+}
