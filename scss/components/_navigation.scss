@@ -21,16 +21,16 @@ nav {
         margin: 0;
     }
     a {
-        color: #fff;
+        color: $white;
         font-size: 1em;
         text-decoration: none;
         display: block;
         padding: 12px 15px;
         letter-spacing: 2px;
         text-transform: uppercase;
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid $white;
         &:hover {
-            background: #222;
+            background: $darkCharcoal;
         }
     }
 }
@@ -65,7 +65,7 @@ label {
     background: $vividOrange;
     width: 42px;
     height: 42px;
-    color: #fff;
+    color: $white;
     text-align: center;
     font-size: 32px;
     line-height: 1.2em;

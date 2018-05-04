@@ -90,11 +90,11 @@
         width: 33%
     }
     .toggle-button:hover {
-        color: #FFF
+        color: $white;
     }
     .toggle-button {
-        background: #101010;
-        color: #FFF;
+        background: $darkCharcoal;
+        color: $white;
         font-size: 30px;
         padding: 0 5px 5px
     }

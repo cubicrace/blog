@@ -1,15 +1,15 @@
 #footer {
     width: 100%;
-    color: #3F3F3F;
-    background: #FFF;
-    @include border("top", 1px, "solid", #CCC);
-    @include border("bottom", 1px, "solid", #CCC);
+    color: $darkCharcoal;
+    background: $white;
+    @include border("top", 1px, "solid", $lightGray);
+    @include border("bottom", 1px, "solid", $lightGray);
 }
 
 .footer {
     width: 25%;
     h2 {
-        color: #333333;
+        color: $darkCharcoal;
         @include fontface("Roboto Slab", 20px, 300);
         margin-bottom: 12px;
         text-transform: uppercase;
@@ -31,7 +31,7 @@
 .footer-credits {
     @include fontface("Roboto Slab", 14px, 100);
     line-height: 21px;
-    background: #FFFFFF;
+    background: $white;
     padding: 0 0 20px 0;
 }
 
@@ -39,7 +39,6 @@
     width: auto;
     float: left;
     height: auto;
-    /* border-top:1px solid #E5E5E5; */
     @include fontface("Roboto Slab", 14px, 300);
     margin: 10px 0 0 0;
     padding: 0;

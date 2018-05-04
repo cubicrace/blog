@@ -1,15 +1,15 @@
 #sidebar {
     padding: 0 24px 0 24px;
-    @include border("left", 1px, solid, #CCCCCC);
+    @include border("left", 1px, solid, $gray80);
 }
 
 .sidebar-wrapper {
     float: right;
     width: 350px;
-    background: #FFFFFF;
+    background: $white;
     margin: 0px;
     padding: 0px;
-    @include border("left", 1px, solid, #E0E0E0);
+    @include border("left", 1px, solid, $lightGray);
 }
 
 .sidebar {
@@ -23,7 +23,7 @@
         padding: 0px;
     }
     .widget {
-        @include border("bottom", 1px, solid, #E0E0E0);
+        @include border("bottom", 1px, solid, $lightGray);
         margin: 16px 0 16px 0;
         padding: 10px 0 10px 0;
         h2 {

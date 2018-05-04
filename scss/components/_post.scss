@@ -53,7 +53,7 @@
         }
     }
     &>a {
-        color: #000;
+        color: $black;
         text-decoration: none;
     }
     &.entry-content {
@@ -76,7 +76,7 @@
 .post-header {
     font-size: 13px;
     margin-bottom: 15px;
-    color: #FFF;
+    color: $white;
     text-transform: uppercase;
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
@@ -87,13 +87,14 @@
         display: inline-block;
         margin: 0 5px 0 0;
         &>a {
-            background: #fc765e;
-            color: #fff;
+            background: $vividOrange;
+            color: $white;
+            letter-spacing: 1px;
             padding: 4px 4px;
             margin: 0 5px 5px 0;
             &:hover {
-                background: #FFF;
-                color: #000;
+                background: $white;
+                color: $black;
             }
         }
     }
@@ -101,10 +102,10 @@
 
 .post-title {
     a {
-        color: #000;
+        color: $black;
         &:hover {
             text-decoration: none;
-            color: #000;
+            color: $black;
         }
     }
 }

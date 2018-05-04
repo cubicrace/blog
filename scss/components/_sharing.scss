@@ -1,6 +1,6 @@
 .ft-tish {
     float: left;
-    border-top: 1px solid #E5E5E5;
+    border-top: 1px solid $lightGray;
     height: 36px;
     position: absolute;
     bottom: 0;
@@ -14,7 +14,7 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     >a {
-        color: #666;
+        color: $gray;
         height: 30px;
         display: block;
         padding: 5px 0 0 0;
@@ -35,7 +35,7 @@
         display: inline-block;
         margin: 0;
         padding: 0;
-        border-left: 1px solid #E5E5E5;
+        border-left: 1px solid $lightGray;
         li {
             float: left;
             text-align: center;
@@ -44,22 +44,22 @@
             padding: 0;
             a {
                 display: inline-block;
-                background: #FFF;
+                background: $white;
                 width: 36px;
                 height: 36px;
                 text-decoration: none;
-                color: #CACACA;
+                color: $lightGray;
                 &.zocial-facebook:hover {
-                    background: #3B5998;
-                    color: #FFF;
+                    background: $facebook;
+                    color: $white;
                 }
                 &.zocial-googleplus:hover {
-                    background: #DA4834;
-                    color: #FFF;
+                    background: $googleplus;
+                    color: $white;
                 }
                 &.zocial-twitter:hover {
-                    color: #FFF;
-                    background: #00ACEE;
+                    color: $white;
+                    background: $twitter;
                 }
             }
         }
@@ -76,8 +76,8 @@
 .share-story-container {
     display: block;
     min-height: 25px;
-    border-top: 5px solid #F1F1F1;
-    border-bottom: 5px solid #F1F1F1;
+    border-top: 5px solid $lightGray;
+    border-bottom: 5px solid $lightGray;
     width: 100%;
     position: relative;
     margin: 0;
@@ -101,8 +101,8 @@
 .linkedin,
 .pin-it,
 .stumble {
-    color: #666;
-    border: 1px solid #CCC;
+    color: $gray;
+    border: 1px solid $lightGray;
     font-family: helvetica;
     -webkit-transition: .07s ease-in;
     -moz-transition: .07s ease-in;
@@ -117,7 +117,7 @@
 .linkedin:hover,
 .pin-it:hover,
 .stumble:hover {
-    color: #FFF
+    color: $white;
 }
 
 .tweet.tips:hover {
@@ -126,13 +126,13 @@
 }
 
 .fb-tips:hover {
-    background: #3B5998;
-    border: 1px solid #3B5998
+    background: $facebook;
+    border: 1px solid $facebook;
 }
 
 .googleplus.tips:hover {
-    background: #DA4834;
-    border: 1px solid #DA4834
+    background: $googleplus;
+    border: 1px solid $googleplus;
 }
 
 .linkedin.tips:hover {
@@ -152,7 +152,7 @@
 
 .author-profile {
     overflow: hidden;
-    border: 1px solid #222;
+    border: 1px solid $darkCharcoal;
     padding: 5px;
 }
 
@@ -176,7 +176,7 @@ p.description {
 }
 
 p.description a {
-    color: #333;
+    color: $darkCharcoal;
     font-family: arial rounded mt bold
 }
 

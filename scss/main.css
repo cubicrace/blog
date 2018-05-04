@@ -169,13 +169,13 @@ i {
 }
 
 ::selection {
-  background: #2EB0EC;
-  color: #fff;
+  background: #7FDBFF;
+  color: #FFFFFF;
 }
 
 ::-moz-selection {
-  background: #333;
-  color: #fff;
+  background: #7FDBFF;
+  color: #FFFFFF;
 }
 
 ol,
@@ -213,7 +213,7 @@ img {
 
 a {
   position: relative;
-  color: #333;
+  color: #333333;
   text-decoration: none;
 }
 a:hover {
@@ -231,7 +231,7 @@ input[type=checkbox]:checked ~ nav {
 }
 
 .wp-terminal {
-  color: #181818;
+  color: #333333;
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 3px;
   background-position: 15px 10px;
@@ -261,12 +261,12 @@ span.blog-admin,
 }
 
 .item-title a {
-  color: #555;
+  color: #555555;
 }
 
 .ft-category {
   font-size: 12px;
-  color: #b4b4b4;
+  color: #d3d3d3;
   margin: 0 0 5px;
   letter-spacing: 2px;
 }
@@ -281,7 +281,7 @@ span.blog-admin,
 }
 .ft-category a:hover {
   text-decoration: none;
-  color: #000;
+  color: #000000;
 }
 .ft-category a:nth-child(n+2) {
   display: none;
@@ -314,17 +314,17 @@ span.blog-admin,
 }
 
 .single-wrapper {
-  background: #FFF;
+  background: #FFFFFF;
   margin-bottom: 20px;
 }
 
 .header-wrapper {
   display: inline-block;
-  background: #FFF;
+  background: #FFFFFF;
   float: left;
   width: 100%;
   height: 60px;
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid #d3d3d3;
   position: fixed;
   z-index: 999;
   margin: 0;
@@ -364,11 +364,11 @@ span.blog-admin,
 }
 
 #header inner {
-  background: #FFF;
+  background: #FFFFFF;
   float: left;
   width: 100%;
   height: 60px;
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid #d3d3d3;
   position: fixed;
   z-index: 999;
   padding: 0;
@@ -530,7 +530,7 @@ h2 {
   line-height: 32px;
 }
 h2 a {
-  color: #000;
+  color: #000000;
 }
 
 h3 {
@@ -554,8 +554,8 @@ h6 {
 }
 
 body {
-  background: #fff;
-  color: #444;
+  background: #FFFFFF;
+  color: #333333;
   height: 100%;
   font-family: "arial";
   font-size: 16px;
@@ -631,7 +631,7 @@ body#layout .container {
   background: #FFFFFF;
   margin: 0px;
   padding: 0px;
-  border-left: 1px solid #E0E0E0;
+  border-left: 1px solid #d3d3d3;
 }
 
 .sidebar ul {
@@ -644,7 +644,7 @@ body#layout .container {
   padding: 0px;
 }
 .sidebar .widget {
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid #d3d3d3;
   margin: 16px 0 16px 0;
   padding: 10px 0 10px 0;
 }
@@ -661,10 +661,10 @@ body#layout .container {
 
 #footer {
   width: 100%;
-  color: #3F3F3F;
-  background: #FFF;
-  border-top: 1px "solid" #CCC;
-  border-bottom: 1px "solid" #CCC;
+  color: #333333;
+  background: #FFFFFF;
+  border-top: 1px "solid" #d3d3d3;
+  border-bottom: 1px "solid" #d3d3d3;
 }
 
 .footer {
@@ -709,7 +709,6 @@ body#layout .container {
   width: auto;
   float: left;
   height: auto;
-  /* border-top:1px solid #E5E5E5; */
   font-family: "Roboto Slab";
   font-size: 14px;
   font-weight: 300;
@@ -785,7 +784,7 @@ body#layout .container {
   margin-top: 0;
 }
 .post-body > a {
-  color: #000;
+  color: #000000;
   text-decoration: none;
 }
 .post-body.entry-content {
@@ -807,7 +806,7 @@ body#layout .container {
 .post-header {
   font-size: 13px;
   margin-bottom: 15px;
-  color: #FFF;
+  color: #FFFFFF;
   text-transform: uppercase;
   font-family: "Roboto Slab", serif;
   font-weight: 400;
@@ -818,22 +817,23 @@ body#layout .container {
   margin: 0 5px 0 0;
 }
 .post-label > div > a {
-  background: #fc765e;
-  color: #fff;
+  background: #F95B07;
+  color: #FFFFFF;
+  letter-spacing: 1px;
   padding: 4px 4px;
   margin: 0 5px 5px 0;
 }
 .post-label > div > a:hover {
-  background: #FFF;
-  color: #000;
+  background: #FFFFFF;
+  color: #000000;
 }
 
 .post-title a {
-  color: #000;
+  color: #000000;
 }
 .post-title a:hover {
   text-decoration: none;
-  color: #000;
+  color: #000000;
 }
 
 .post-footer-line .post-footer-line-2 {
@@ -865,7 +865,7 @@ body#layout .container {
   overflow-background: #F95B07;
   overflow-font-size: 16px;
   overflow-font-weight: normal;
-  overflow-color: #fff;
+  overflow-color: #FFFFFF;
 }
 #comments:after {
   content: "";
@@ -895,7 +895,7 @@ body#layout .container {
 }
 .comments .continue a {
   font-weight: normal;
-  color: #fff;
+  color: #FFFFFF;
 }
 .comments .avatar-image-container,
 .comments .avatar-image-container img {
@@ -906,10 +906,10 @@ body#layout .container {
 }
 
 .comment-thread {
-  color: #111;
+  color: #000000;
 }
 .comment-thread a {
-  color: #777;
+  color: #777777;
 }
 .comment-thread .comment-thread ol {
   margin: 0 0 20px 0;
@@ -959,8 +959,8 @@ body#layout .container {
 }
 .comment-thread .comment-block,
 .comment-thread .comment-thread.inline-thread .comment {
-  border: 1px solid #ddd;
-  background: #f9f9f9;
+  border: 1px solid #d3d3d3;
+  background: #d3d3d3;
   padding: 10px;
 }
 .comment-thread .comments-content .comment {
@@ -989,7 +989,7 @@ body#layout .container {
   line-height: 1.4em;
 }
 .comment-thread .comment-thread.inline-thread {
-  border-left: 1px solid #ddd;
+  border-left: 1px solid #d3d3d3;
   background: transparent;
 }
 .comment-thread .comment-thread.inline-thread .comment {
@@ -1000,7 +1000,7 @@ body#layout .container {
   position: absolute;
   top: 10px;
   left: -20px;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #d3d3d3;
   width: 10px;
   height: 0px;
 }
@@ -1020,7 +1020,7 @@ body#layout .container {
 
 .ft-tish {
   float: left;
-  border-top: 1px solid #E5E5E5;
+  border-top: 1px solid #d3d3d3;
   height: 36px;
   position: absolute;
   bottom: 0;
@@ -1035,7 +1035,7 @@ body#layout .container {
   text-transform: uppercase;
 }
 .ft-ftime > a {
-  color: #666;
+  color: #777777;
   height: 30px;
   display: block;
   padding: 5px 0 0 0;
@@ -1056,7 +1056,7 @@ body#layout .container {
   display: inline-block;
   margin: 0;
   padding: 0;
-  border-left: 1px solid #E5E5E5;
+  border-left: 1px solid #d3d3d3;
 }
 .ft-fshare ul li {
   float: left;
@@ -1067,22 +1067,22 @@ body#layout .container {
 }
 .ft-fshare ul li a {
   display: inline-block;
-  background: #FFF;
+  background: #FFFFFF;
   width: 36px;
   height: 36px;
   text-decoration: none;
-  color: #CACACA;
+  color: #d3d3d3;
 }
 .ft-fshare ul li a.zocial-facebook:hover {
   background: #3B5998;
-  color: #FFF;
+  color: #FFFFFF;
 }
 .ft-fshare ul li a.zocial-googleplus:hover {
   background: #DA4834;
-  color: #FFF;
+  color: #FFFFFF;
 }
 .ft-fshare ul li a.zocial-twitter:hover {
-  color: #FFF;
+  color: #FFFFFF;
   background: #00ACEE;
 }
 
@@ -1096,8 +1096,8 @@ body#layout .container {
 .share-story-container {
   display: block;
   min-height: 25px;
-  border-top: 5px solid #F1F1F1;
-  border-bottom: 5px solid #F1F1F1;
+  border-top: 5px solid #d3d3d3;
+  border-bottom: 5px solid #d3d3d3;
   width: 100%;
   position: relative;
   margin: 0;
@@ -1121,8 +1121,8 @@ body#layout .container {
 .linkedin,
 .pin-it,
 .stumble {
-  color: #666;
-  border: 1px solid #CCC;
+  color: #777777;
+  border: 1px solid #d3d3d3;
   font-family: helvetica;
   -webkit-transition: 0.07s ease-in;
   -moz-transition: 0.07s ease-in;
@@ -1137,7 +1137,7 @@ body#layout .container {
 .linkedin:hover,
 .pin-it:hover,
 .stumble:hover {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .tweet.tips:hover {
@@ -1172,7 +1172,7 @@ body#layout .container {
 
 .author-profile {
   overflow: hidden;
-  border: 1px solid #222;
+  border: 1px solid #333333;
   padding: 5px;
 }
 
@@ -1196,7 +1196,7 @@ p.description {
 }
 
 p.description a {
-  color: #333;
+  color: #333333;
   font-family: arial rounded mt bold;
 }
 
@@ -1230,17 +1230,17 @@ nav li {
   margin: 0;
 }
 nav a {
-  color: #fff;
+  color: #FFFFFF;
   font-size: 1em;
   text-decoration: none;
   display: block;
   padding: 12px 15px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #FFFFFF;
 }
 nav a:hover {
-  background: #222;
+  background: #333333;
 }
 
 #blog-pager-older-link {
@@ -1272,7 +1272,7 @@ label {
   background: #F95B07;
   width: 42px;
   height: 42px;
-  color: #fff;
+  color: #FFFFFF;
   text-align: center;
   font-size: 32px;
   line-height: 1.2em;
@@ -1377,12 +1377,12 @@ label {
   }
 
   .toggle-button:hover {
-    color: #FFF;
+    color: #FFFFFF;
   }
 
   .toggle-button {
-    background: #101010;
-    color: #FFF;
+    background: #333333;
+    color: #FFFFFF;
     font-size: 30px;
     padding: 0 5px 5px;
   }
